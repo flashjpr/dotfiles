@@ -1,4 +1,5 @@
 [alias]
+       s = status
        co = checkout
        ec = config --global -e
        up = !git pull --rebase --prune $@ && git submodule update --init --recursive
